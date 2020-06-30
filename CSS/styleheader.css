@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans+Condensed&family=Londrina+Solid&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: #191513;
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 25px 0;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    padding: 5px 3px;
+    font-family: 'Courgette', cursive;
+}
+nav ul li a:hover{
+    color: #fff;
+    border-bottom: 3.5px solid #eea16d;
+}   
+.content-row{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.left-col,.right-col{
+    flex-basis: 50%;
+    margin: 0 70px;
+}
+.left-col{
+    padding: 50px 0;
+}
+.search{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid #4e3829;
+    border-radius: 20px;
+}
+.search i{
+    /* height: 16px; */
+    color: #eea16d;
+    margin-right: 10px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.search input{
+    width: 100%;
+    outline: none;
+    border: 0;
+    color: #999;
+    background: transparent;
+    font-size: 15px;
+}
+hr{
+    width: 160px;
+    height: 5px;
+    background: #eea16d;
+    margin: 22px 0;
+    border: none;
+}
+h1{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: 'Londrina Solid', cursive;
+}
+p{
+    color: #999;
+    margin: 30px 0;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.indicator{
+    display: flex;
+}
+span{
+    width: 5px;
+    height: 5px;
+    border: 1px solid #eea16d;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.active{
+    background-color: #eea16d;
+}
+.right-col img{
+    width: 85%;
+    border: 1px solid #999;
+    border-radius: 25%;
+}
+.social-links{
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.social-links i{
+    display: block;
+    margin: 30px 0;
+    color: #eea16d;
+    font-size: 25px;
+}
+.fa-facebook:hover{
+    color: blue !important;
+}
+.fa-instagram:hover{
+    color: #e95950 !important;
+}
+.fa-twitter:hover{
+    color: #00acee !important;
+}
+.fa-youtube:hover{
+    color: red !important;
+}
